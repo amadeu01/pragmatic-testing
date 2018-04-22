@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.2
+  
+before_install:
+  - apt-get install pandoc
+  
+script:
+  - ruby generate.rb
